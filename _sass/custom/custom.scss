@@ -1,0 +1,24 @@
+// custom SCSS (or CSS) goes here
+.notebook {
+  // Reset any conflicting positioning
+  position: static !important;
+  margin-top: 0 !important;
+
+  .jp-Cell {
+    margin-bottom: 1rem;
+  }
+
+  .jp-OutputArea-output {
+    overflow-x: auto;
+  }
+
+  // Fix code cell alignment
+  .jp-CodeCell {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .jp-CodeInput {
+    padding-left: 0;
+  }
+}

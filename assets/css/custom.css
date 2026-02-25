@@ -1,0 +1,45 @@
+/* Fix top spacing and search bar interference */
+.notebook {
+  position: static !important;
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+/* Fix Jupyter-style code blocks */
+.notebook .jp-Cell,
+.notebook .jp-CodeCell {
+  display: flex !important;
+  flex-direction: column !important;
+  margin-bottom: 1rem !important;
+}
+
+.notebook .jp-InputArea {
+  display: flex !important;
+  align-items: flex-start !important;
+}
+
+/* Hide Jupyter "In [ ]:" prompt if it causes misalignment */
+.notebook .jp-InputPrompt {
+  min-width: 50px;
+  text-align: right;
+  padding-right: 8px;
+  color: #666;
+  font-family: monospace;
+}
+
+/* Style the actual code */
+.notebook .jp-CodeMirror,
+.notebook .CodeMirror {
+  width: 100% !important;
+  border: none !important;
+  background: #f8f9fa !important;
+  padding: 0.5em !important;
+  border-radius: 4px !important;
+  font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace !important;
+  font-size: 0.9em !important;
+}
+
+/* Ensure output area doesn't overflow weirdly */
+.notebook .jp-OutputArea-output {
+  overflow-x: auto;
+}

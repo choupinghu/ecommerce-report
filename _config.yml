@@ -15,9 +15,10 @@
 # in the templates via {{ site.myvariable }}.
 title: Basket Analysis
 description: Customer behaviour report
-baseurl: /ecommerce-report
-url:  https://choupinghu.github.io
+baseurl: "/ecommerce-report"
+url:  "https://choupinghu.github.io"
 repository: just-the-docs/just-the-docs # for github-metadata
+remote_theme: pmarsceill/just-the-docs
 
 permalink: pretty
 

@@ -22,3 +22,17 @@
     padding-left: 0;
   }
 }
+
+.main-content a {
+  color: #0563C1;
+  text-decoration: underline;
+ 
+  &:hover {
+    color: #033E8C;
+    text-decoration: underline;
+  }
+ 
+  &:visited {
+    color: #551A8B;
+  }
+}

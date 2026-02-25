@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Insights
+title: Business Insights
 nav_order: 2
 ---
 
@@ -20,6 +20,6 @@ Payment method can be used as a real-time trigger for personalized offers (e.g. 
 Identified associations reflect customer behavioural patterns, and indicate opportunities to target certain groups to maximisem sales
 
 **5. "Long tail" rules require strategic implementation**  
-High-support rules → general merchandising
-Medium-support, high-lift rules → targeted email/cross-sell
+High-support rules → general merchandising  
+Medium-support, high-lift rules → targeted email/cross-sell  
 Low-support rules → useful if serving luxury/niche segments
